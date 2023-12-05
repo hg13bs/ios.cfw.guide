@@ -13,7 +13,7 @@ redirect_from:
 extra_contributors:
   - Mineek
   - nebula
-  - flowerible
+  - ssalagginkool
 ---
 
 ::: danger
@@ -28,7 +28,7 @@ If you are using a computer with an AMD Ryzen CPU, you will likely run into issu
 
 :::
 
-palen1x is a live bootable Linux environment that allows you to quickly run palera1n on a compatible device. palera1n is capable of jailbreaking iOS devices with A8(X) to A11 SoC's on iOS 15 and later
+palen1x is a live bootable Linux environment that allows you to quickly run palera1n on a compatible device. palera1n is capable of jailbreaking iOS devices with A8(X) to A11 SoC's on iOS 15.0 or later
 
 On A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay. 
 
@@ -36,7 +36,7 @@ Additionally, if your device is an A11 device on iOS 16 and you've set a passcod
 
 ## Requirements
 
-- A 64MB or greater USB Drive
+- A 128MB or greater USB Drive
     - If you don't have a USB Drive, but do have another form of supported removable bootable hardware (e.g. A CD or DVD), you can use that instead of a USB Drive
 - The latest version of [palen1x](https://github.com/palera1n/palen1x/releases)
 - [Ventoy](https://github.com/ventoy/Ventoy/releases)

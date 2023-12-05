@@ -3,12 +3,23 @@ lang: en_US
 title: Installing TrollStore
 description: Guide to installing TrollStore
 permalink: /installing-trollstore
+sidebar: false
+home: true
+hero: false
 redirect_from:
   - /trollstore
 extra_contributors:
   - opa334
   - iCraze
 ---
+
+# Installing TrollStore
+
+::: tip
+
+For support in English, ask for help on the r/Jailbreak [Discord Server](https://discord.gg/jb).
+
+:::
 
 ::: danger
 
@@ -22,16 +33,122 @@ Installing TrollStore is a process which varies depending on what device and iOS
 
 ---
 
-::: tip
-
-If you are jailbroken on iOS 14.0 to 15.3.1, follow <router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link>
-
-If you have an A12 or newer device on iOS 14.0 to 14.8.1, as well as any device on iOS 15.0 to 15.5b4 or 15.6b1 to 15.6b5, follow <router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelper OTA)</router-link>
-
-:::
+<table>
+  <colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">From</th>
+      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style="text-align: center; font-weight: bold;">arm64 (A8 - A11)</th>
+      <th style="text-align: center; font-weight: bold;">arm64e (A12 - A17 / M1 - M2)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">13.7 and earlier</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">14.0</td>
+      <td style="text-align: center; font-weight: bold;">14.8.1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.0</td>
+      <td style="text-align: center; font-weight: bold;">15.5 beta 4</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.5</td>
+      <td style="text-align: center; font-weight: bold;">15.5</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.6 beta 1</td>
+      <td style="text-align: center; font-weight: bold;">15.6 beta 5</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.6</td>
+      <td style="text-align: center; font-weight: bold;">15.6.1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelperota">Installing TrollStore (TrollHelperOTA)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.7</td>
+      <td style="text-align: center; font-weight: bold;">15.7.1</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.7.2</td>
+      <td style="text-align: center; font-weight: bold;">15.7.2</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">Coming Soon</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">15.7.3</td>
+      <td style="text-align: center; font-weight: bold;">15.8</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">Not Applicable</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.0</td>
+      <td style="text-align: center; font-weight: bold;">16.1.2</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><router-link to="/installing-trollhelper-mdc">Installing TrollStore (TrollInstallerMDC)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.2</td>
+      <td style="text-align: center; font-weight: bold;">16.5</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-misaka">Installing TrollStore (Misaka)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.5.1</td>
+      <td style="text-align: center; font-weight: bold;">16.5.1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">No Installation Method</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.6 beta 1</td>
+      <td style="text-align: center; font-weight: bold;">16.6 beta 1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper-misaka">Installing TrollStore (Misaka)</router-link></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.6 beta 2</td>
+      <td style="text-align: center; font-weight: bold;">16.6.1</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">No Installation Method</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">16.7</td>
+      <td style="text-align: center; font-weight: bold;">16.7.2</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">17.0</td>
+      <td style="text-align: center; font-weight: bold;">17.0</td>
+      <td style="text-align: center; font-weight: bold;"><router-link to="/installing-trollhelper">Installing TrollStore (TrollHelper)</router-link></td>
+      <td style="text-align: center; font-weight: bold;">No Installation Method</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">17.0.1 and later</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Unsupported</td>
+    </tr>
+  </tbody>
+</table>
 
 ::: danger
 
-If your device is on iOS 13.7 and older, is running iOS 15.5, or is running iOS 15.6 or newer, it will **never** be supported by TrollStore.
+If your device is on iOS 13.7 and older, is running iOS 16.7.x, or is running iOS 17.0.1 or newer, it will **never** be supported by TrollStore.
+
+Note that, if your device is on iOS 16.7.x, but supports iOS 17.0, you can follow <router-link to="/updating-blobless-advanced">Updating (Blobless) (Advanced)</router-link> and refer to the chart for further information
 
 :::

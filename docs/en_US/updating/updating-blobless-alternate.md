@@ -15,11 +15,13 @@ Fortunately, we can use different "profiles" to delay a firmware update. This is
 
 This has a time limit, however. You will only be able to update to the following firmware versions before their respective expiration dates:
 
-- **16.3** - May 14th, 2023
-- **15.7.3** - June 25th, 2023
-- **16.3.1** - June 25th, 2023
-- **16.4** - July 6th, 2023
-- **15.7.4** - July 9th, 2023
+- **16.6** - December 6th, 2023
+- **15.7.8** - December 10th, 2023
+- **16.6.1 (For devices on 14.4.2 or earlier that got 17)** - December 17th, 2023
+- **16.6.1 (All other devices)** - December 20th, 2023
+- **17.0** - December 20th, 2023
+- **17.0.1** - December 25th, 2023
+- **17.0.2** - January 2nd, 2024
 
 Time is given in `UTC 00:00`. For more expiration dates, view [dhinakg.github.io/delayed-otas.html](https://dhinakg.github.io/delayed-otas.html).
 
@@ -40,7 +42,7 @@ If you previously attempted an older blobless method, remove all delay and beta 
 1. Launch your current jailbreak
 1. Open your preferred package manager and add the following repos:
     - [https://dhinakg.github.io/repo/](https://dhinakg.github.io/repo/)
-    - [https://repo.cadoth.net](https://repo.cadoth.net)
+    - [https://repo.alexia.lol](https://repo.alexia.lol)
 1. Search and install the `Dahlia` package
 1. Tap `Reboot Device`, and then rejailbreak your device after rebooting
 

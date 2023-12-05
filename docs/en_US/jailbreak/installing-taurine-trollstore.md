@@ -17,7 +17,7 @@ In order to follow this method, you'll need an A12 or newer device. If you have 
 
 :::
 
-While Taurine is compatible with jailbreaking devices on iOS/iPadOS versions from 14.0 to 14.3, this method of obtaining Taurine requires an A12 or newer device.
+While Taurine is compatible with jailbreaking every device on iOS/iPadOS versions from 14.0 to 14.8.1, this method of obtaining Taurine requires an A12 or newer device.
 
 ::: warning
 
@@ -25,9 +25,16 @@ If you are already jailbroken with unc0ver, make sure to properly <router-link t
 
 :::
 
+::: warning
+
+*Reliable* M1 iPad Pro support requires an *unofficial* build of Taurine. If you are not comfortable with using an unofficial build, you can attempt to use the official release, but it will be extraordinarily unlikely that it ever succeeds.
+
+:::
+
 ## Downloads
 
 - The latest version of [Taurine](https://taurine.app/)
+    - If you have an M1 iPad Pro, you can opt to get the latest [unofficial Taurine](https://github.com/TheMasterOfMike/Taurine/releases/tag/1.1.7-3_M1) instead (if you do not have an M1 iPad Pro, **do not use this unofficial build**)
     - Make sure to download the Taurine `.ipa` file **onto your iOS device**
 
 ## Installing TrollHelper
@@ -45,11 +52,7 @@ An app named `GTA Car Tracker` will now install to your iOS device, this app is 
 
 The TrollStore application will now install to your iOS device.
 
-## Preparing TrollStore
-
-In order to be able to sideload Taurine, a couple more steps need to be done.
-
-### Installing Persistence Helper
+## Installing Persistence Helper
 
 1. Reopen the `GTA Car Tracker` app
 1. Press `Register Persistence Helper`
@@ -102,10 +105,13 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 
 1. Open the Sileo application
 1. Tap on the "Search" tab
-1. Search for "libhooker"
+1. Search for "libiosexec1"
 1. Tap "Install"
-    - This will begin a queue - do not install the queue until we've selected all our programs to install
-1. Search for "PreferenceLoader" and "RocketBootstrap" and add them to the queue by pressing "Install"
+1. Tap the "Queued" bar at the bottom of the page
+1. Tap "Confirm"
+1. Once finished, tap "Done"
+1. Search for "libhooker (common)", "PreferenceLoader", and "RocketBootstrap" and add them to the queue by pressing "Install"
+    - While we're preparing the queue, do not install the anything that is queued until after we've selected all our programs to install
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
 1. Once finished, tap 'Restart SpringBoard'

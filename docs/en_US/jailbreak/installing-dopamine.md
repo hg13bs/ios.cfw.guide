@@ -15,12 +15,6 @@ Dopamine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">
 
 ::: warning
 
-As this jailbreak is fundamentally different from how most other jailbreaks have been in the past, you will run into issues with tweak compatibility - these will improve over time, however.
-
-:::
-
-::: warning
-
 Dopamine only supports A12 and newer devices on iOS 15.0 to 15.4.1
 
 :::
@@ -36,7 +30,7 @@ The latest version of [Dopamine](https://ellekit.space/dopamine)
 1. Go to [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
 1. Tap `Install`
 
-An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
+An app named `GTA Car Tracker` will now install to your iOS device. Despite the name, this app is actually TrollHelper.
 
 ## Installing TrollStore
 
@@ -45,11 +39,7 @@ An app named `GTA Car Tracker` will now install to your iOS device, this app is 
 
 The TrollStore application will now install to your iOS device.
 
-## Preparing TrollStore
-
-In order to be able to sideload Dopamine, a couple more steps need to be done.
-
-### Installing Persistence Helper
+## Installing Persistence Helper
 
 1. Reopen the `GTA Car Tracker` app
 1. Press `Register Persistence Helper`

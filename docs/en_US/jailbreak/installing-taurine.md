@@ -13,7 +13,7 @@ extra_contributors:
 
 Taurine is a <router-link to="/types-of-jailbreak/#semi-untethered-jailbreaks">semi-untethered jailbreak</router-link>, meaning it requires an app to re-apply the exploit after a reboot.
 
-The tool is compatible with jailbreaking devices on iOS/iPadOS versions from 14.0 to 14.3.
+The tool is compatible with jailbreaking all devices on iOS/iPadOS versions 14.0 to 14.8.1.
 
 Due to how semi-untethered jailbreaks work, the app will need to be <router-link to="/resigning-apps">re-signed</router-link> once every 7 days. However, you also have the option of installing a permanently signed Taurine app after jailbreaking.
 
@@ -31,6 +31,12 @@ If you are already jailbroken with another jailbreak (besides Odysseyra1n), make
 
 :::
 
+::: warning
+
+*Reliable* M1 iPad Pro support requires an *unofficial* build of Taurine. If you are not comfortable with using an unofficial build, you can attempt to use the official release, but it will be extraordinarily unlikely that it ever succeeds.
+
+:::
+
 ## Downloads
 
 <div class="custom-container tip" id="ifJailbreaksAppSigned"><p>
@@ -38,6 +44,7 @@ Taurine is currently signed at <a href="https://jailbreaks.app/" target="_blank"
 </p></div>
 
 - The latest version of [Taurine](https://taurine.app/)
+    - If you have an M1 iPad Pro, you can opt to get the latest [unofficial Taurine](https://github.com/TheMasterOfMike/Taurine/releases/tag/1.1.7-3_M1) instead (if you do not have an M1 iPad Pro, **do not use this unofficial build**)
 - The latest version of [Sideloadly](https://sideloadly.io/)
 - The latest version of [iTunes](https://www.apple.com/itunes/download/win32) if on Windows
 
@@ -91,10 +98,13 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 
 1. Open the Sileo application
 1. Tap on the "Search" tab
-1. Search for "libhooker"
+1. Search for "libiosexec1"
 1. Tap "Install"
-    - This will begin a queue - do not install the queue until we've selected all our programs to install
-1. Search for "PreferenceLoader" and "RocketBootstrap" and add them to the queue by pressing "Install"
+1. Tap the "Queued" bar at the bottom of the page
+1. Tap "Confirm"
+1. Once finished, tap "Done"
+1. Search for "libhooker (common)", "PreferenceLoader", and "RocketBootstrap" and add them to the queue by pressing "Install"
+    - While we're preparing the queue, do not install the anything that is queued until after we've selected all our programs to install
 1. Tap the "Queued" bar at the bottom of the page
 1. Tap "Confirm"
 1. Once finished, tap 'Restart SpringBoard'
@@ -102,6 +112,14 @@ You should now be jailbroken with Sileo installed on your home screen. You can u
 After installing the necessary software, you can also install taurine-permanent to have a permanently signed Taurine application, which we recommend doing in order to be able to save effort in the long-term.
 
 ## Installing taurine-permanent
+
+::: warning
+
+taurine-permanent will install the latest *official* version of Taurine.
+
+If you are using the unofficial build for reliable M1 iPad Pro support, you can alternatively install TrollStore (via the TrollStore Helper package on the havoc.app repository) and install the unofficial build of Taurine through that, in order to permasign it.
+
+:::
 
 1. Reopen the Sileo application
 1. Tap on the "Search" tab

@@ -17,7 +17,7 @@ extra_contributors:
   - nebula
 ---
 
-palera1n is a work-in-progress jailbreak that patches the kernel so you can use Sileo and install tweaks. Currently, palera1n is compatible with A11 (iPhone X) and earlier devices on iOS 15 and later, with some major caveats.
+palera1n is a work-in-progress jailbreak that is compatible with A11 (iPhone X) and earlier devices on iOS 15.0 or later, with some caveats for A11 devices.
 
 On A11 devices, you **must disable your passcode** and will not be able to use your passcode, or other SEP functionality, until you boot into a stock iOS state. SEP functionality includes things such as a passcode, Face ID/Touch ID, and Apple Pay. 
 
@@ -29,7 +29,7 @@ If you are using an old version of palera1n that was tethered, you'll need to <r
 
 :::
 
-::: tip
+::: warning
 
 If you are using Windows, you should follow <router-link to="/using-palen1x">Using palen1x</router-link> instead.
 
@@ -82,6 +82,17 @@ You'll need to do this every time you rejailbreak your device as well.
 ::::
 
 :::: tab name="Linux"
+
+::: danger
+
+Depending on the Linux distribution you are using, you may run into issues with the latest version (2.0.0b8) of palera1n.
+
+If you do run into issues, you have three options:
+- Obtain a Mac and follow the macOS tab instead.
+- <router-link to="/using-palen1x">Use palen1x</router-link> instead, which does not have this issue.
+- **If you are trying to jailbreak a 15.0 to 16.7.2 device**, you can manually install [palera1n 2.0.0b7](https://github.com/palera1n/palera1n/releases/tag/v2.0.0-beta.7) instead.
+
+:::
 
 ::: danger
 
